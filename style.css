@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  margin: 0;
+  list-style: none;
+  background-color: #efefef;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 500px;
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  border-radius: 20px 20px 20px 20px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.list {
+  height: 400px;
+  background-color: white;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 20px;
+}
+.item__name {
+  font-size: 1rem;
+}
+.item__delete {
+  font-size: 1rem;
+}
+
+.footer {
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+.footer__fill-in {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #f7f7f7;
+}
+.footer__button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%) scale(3.5);
+}

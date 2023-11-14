@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO (Search Engine Optimization) -->
+    <title>Shopping List App</title>
+    <meta name="description" content="Shopping List App" />
+    <meta name="author" content="JH" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:wght@400;600&family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/cc55408c6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">Shopping List</header>
+      <!-- Main -->
+      <main class="list">
+        <ul class="items">
+          <li class="item">
+            <span class="item__name"></span>
+            <button class="item__delete">
+              <!-- <i class="fa-solid fa-trash-can"></i> -->
+            </button>
+          </li>
+        </ul>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <input type="text" class="footer__fill-in" />
+        <button class="footer__button">
+          <i class="fa-solid fa-circle-plus"></i>
+        </button>
+      </footer>
+    </div>
+  </body>
+</html>
