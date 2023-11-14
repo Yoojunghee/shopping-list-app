@@ -27,7 +27,7 @@ addEventListener('load', () => {
   button.addEventListener('click', () => {
     const itemNew = addElement();
     if (!fillIn.value.trim()) {
-      alert('내용을 입력해주세요');
+      alert('내용을 입력해주세요!');
     } else {
       items.appendChild(itemNew);
       fillIn.value = '';

@@ -50,6 +50,7 @@ button {
 .list {
   height: 400px;
   background-color: white;
+  overflow-y: auto;
 }
 .item {
   display: flex;
